@@ -86,6 +86,7 @@ const (
 
 // Engine is the framework's instance, it contains the muxer, middleware and configuration settings.
 // Create an instance of Engine, by using New() or Default()
+// gin引擎实例，包含：多路复用；中间件；配置
 type Engine struct {
 	RouterGroup
 
